@@ -60,7 +60,7 @@ void setup() {
   }
 
   Serial.println("LoRa init succeeded.");
-  
+  // pinMode(MOISURE_PIN, OUTPUT);
   Serial.setTimeout(5);
   dht.begin();
 }
@@ -94,7 +94,7 @@ void loop() {
     JsonObject doc_0 = doc.createNestedObject();
     doc_0["temp"] = data[0];
     doc_0["wet"] = data[1];
-    // doc[1]["value"] = data[2];
+    doc[1]["value"] = data[2];
 
     String message;
     serializeJson(doc, message);
