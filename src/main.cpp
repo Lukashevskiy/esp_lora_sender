@@ -2,7 +2,6 @@
 #include <LoRa.h>
 #include <DHT.h>
 #include <string>
-#include <ArduinoJson.h>
 
 enum class SENSORS{
   DHT11,
@@ -99,7 +98,7 @@ void loop() {
 
     if (isnan(data[0]) || isnan(data[1])){ 
       Serial.println("Не удается считать показания"); 
-      return;
+      // return;
     }else{
       Serial.println("Показатели.");
     }
@@ -107,7 +106,7 @@ void loop() {
     std::tie(data[2]) = do_data_collect<SENSORS::MOISURE_SENSOR, float>();
     if (isnan(data[2])){ 
       Serial.println("Не удается считать показания"); 
-      return;
+      // return;
     }else{
       Serial.println("Показатели.");
     

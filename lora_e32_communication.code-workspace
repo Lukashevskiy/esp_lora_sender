@@ -1,0 +1,105 @@
+{
+	"folders": [
+		{
+			"path": "../../../arduino_amperka_projects/lora_e32_communication"
+		},
+		{
+			"name": "client_monitor_e_32",
+			"path": "../client_monitor_e_32"
+		},
+		{
+			"name": "LORA_UNO_EXAMPLE",
+			"path": "../LORA_UNO_EXAMPLE"
+		},
+		{
+			"name": "esp8266_wifi_monitor",
+			"path": "../esp8266_wifi_monitor"
+		},
+		{
+			"name": "esp_lora_02_sender",
+			"path": "."
+		},
+		{
+			"name": "esp_lora_monitor",
+			"path": "../esp_lora_monitor"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.tcc": "cpp",
+			"bitset": "cpp",
+			"chrono": "cpp",
+			"vector": "cpp",
+			"fstream": "cpp",
+			"istream": "cpp",
+			"sstream": "cpp",
+			"string_view": "cpp",
+			"new": "cpp",
+			"any": "cpp",
+			"array": "cpp",
+			"atomic": "cpp",
+			"bit": "cpp",
+			"cctype": "cpp",
+			"charconv": "cpp",
+			"clocale": "cpp",
+			"cmath": "cpp",
+			"codecvt": "cpp",
+			"compare": "cpp",
+			"concepts": "cpp",
+			"condition_variable": "cpp",
+			"cstdarg": "cpp",
+			"cstddef": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"deque": "cpp",
+			"forward_list": "cpp",
+			"list": "cpp",
+			"map": "cpp",
+			"set": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"exception": "cpp",
+			"algorithm": "cpp",
+			"functional": "cpp",
+			"iterator": "cpp",
+			"memory": "cpp",
+			"memory_resource": "cpp",
+			"numeric": "cpp",
+			"optional": "cpp",
+			"random": "cpp",
+			"ratio": "cpp",
+			"string": "cpp",
+			"system_error": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp",
+			"initializer_list": "cpp",
+			"iomanip": "cpp",
+			"iosfwd": "cpp",
+			"iostream": "cpp",
+			"limits": "cpp",
+			"mutex": "cpp",
+			"numbers": "cpp",
+			"ostream": "cpp",
+			"ranges": "cpp",
+			"span": "cpp",
+			"stdexcept": "cpp",
+			"stop_token": "cpp",
+			"streambuf": "cpp",
+			"thread": "cpp",
+			"cinttypes": "cpp",
+			"typeinfo": "cpp",
+			"valarray": "cpp",
+			"variant": "cpp",
+			"format": "cpp",
+			"semaphore": "cpp",
+			"stdfloat": "cpp",
+			"text_encoding": "cpp"
+		}
+	}
+}
